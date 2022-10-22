@@ -1,4 +1,3 @@
-import UilReact from '@iconscout/react-unicons/icons/uil-react'
 import { useEffect, useState } from 'react';
 import './App.css';
 import Forecast from './Components/Forecast';
@@ -42,7 +41,7 @@ function App() {
   };
 
   const currentTheme = localStorage.getItem("theme");
-  if (currentTheme == "dark") {
+  if (currentTheme === "dark") {
     document.body.classList.add("dark-mode");
   }
 
@@ -56,7 +55,7 @@ function App() {
     localStorage.setItem("theme", theme);
   };
 
-  if (localStorage.getItem("theme") == "dark") {
+  if (localStorage.getItem("theme") === "dark") {
     var element = document.body;
     element.classList.add("dark-mode");
   }
