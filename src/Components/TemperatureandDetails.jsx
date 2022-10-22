@@ -1,7 +1,5 @@
 import React from 'react'
 import {
-    UilArrowUp,
-    UilArrowDown,
     UilTemperature,
     UilTear,
     UilWind,
@@ -17,7 +15,7 @@ function TemperatureandDetails({weather: {details,icon,temp,temp_min,temp_max,su
             {details}
         </div>
         <div className='flex flex-row items-center justify-between text-white py-3'>
-            <img src={iconUrlFromCode(icon)} className='w-20' />
+            <img alt=' ' src={iconUrlFromCode(icon)} className='w-20' />
             <p className='text-5xl'>{`${temp.toFixed()}°`}</p>
             <div className='flex flex-col space-y-2'>
                 <div className='flex font-light text-sm items-center justify-center'>
