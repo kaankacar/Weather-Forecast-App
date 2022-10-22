@@ -8,19 +8,19 @@ function Topbuttons({setQuery}) {
         },
         {
             id:2,
-            title:"Sydney"
+            title:"Berlin"
         },
         {
             id:3,
-            title:"Tokyo"
+            title:"Ankara"
         },
         {
             id:4,
-            title:"Toronto"
+            title:"Istanbul"
         },
         {
             id:5,
-            title:"Paris"
+            title:"Izmir"
         }
     ]
   return (
